@@ -26,14 +26,11 @@ switch (lang) {
 }
 
 // через многомерный массив
-let arr =[
-  [{'ru':['Понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье']}],
-  [{'en':['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']}]
-]
+let typeArr = [];
+typeArr['ru'] = ['Понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'];
+typeArr['en'] = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-console.log(arr[0]);
-console.log(arr[1]);
-
+console.log(typeArr[lang]);
 // 2-ое задание
 
 let nameYou = prompt('Ваше имя?', 'Артем или Максим');
